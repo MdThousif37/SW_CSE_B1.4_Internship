@@ -8,3 +8,5 @@ if(true){
     let screat = "password"
 }
 console.log(screat)//let is a block variable
+const pi = 3.14
+pi = 10//reasign to constant variable not posible
