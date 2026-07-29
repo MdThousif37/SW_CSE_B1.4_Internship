@@ -1,3 +1,6 @@
+import Button from "./components/FunctionalComponents";
+import { LeftArrow,RightArrow} from "./components/FunctionalComponentsTWO";
+import ProfileList from "./components/props";
 const name = "Thousif";
 const isLoggedIn = false;
 
@@ -22,6 +25,10 @@ function App() {
 
       {/* JSX Rule 5: use expressions, not statements */}
       <p>{isLoggedIn ? "Welcome back" : "Please Login"}</p>
+      <Button/ >
+      <LeftArrow/ >
+      <RightArrow/ >
+      <ProfileList />
     </>
     
   )
